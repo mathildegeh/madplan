@@ -1,0 +1,50 @@
+[
+{
+    "id": "1",
+    "name": "Cannelloni",
+    "link": "https://madenimitliv.dk/2020/10/cannelloni-spinat-ricotta-nem-opskrift/",
+    "ingredients": "spinat, ricotta, cannellonirør, salt, peber, hakkede tomater, hvidløg, tørret basilikum, sukker, løg, citron, parmesan, mozzarella",
+    "time": "1 time"
+},
+{
+    "id": "2",
+    "name": "Reddit thai",
+    "link": "https://hostthetoast.com/15-minute-thai-basil-chicken/",
+    "ingredients": "østerssovs, soyasovs, fiskesovs, sukker, rød peberfrugt, grønne bønner, kyllingefileter, skalotteløg, hvidløg, (chili), jasminris",
+    "time": "15 minutter"
+},
+{
+    "id": "4",
+    "name": "Pastasalat med pesto",
+    "link": "",
+    "ingredients": "pasta, pesto, pinjekerner, soltørrede tomater, bacon",
+    "time": "15 minutter"
+},
+{
+    "id": "5",
+    "name": "Pizza",
+    "link": "",
+    "ingredients": "pizzabunde, pizzasovs, mozzarella, pepperoni, oliven, rødløg",
+    "time": "20 minutter"
+},
+{
+    "id": "6",
+    "name": "Pasta i stærk tomatsovs",
+    "link": "https://www.instagram.com/reel/CfCgI9fMaQG/?igshid=MDJmNzVkMjY=",
+    "ingredients": "pasta, cherrytomater, løg, frisk oregano, chili, hvidvin/vand",
+    "time": "20 minutter"
+},
+{
+    "id": "7",
+    "name": "Wok med kylling og frosne grøntsager",
+    "link": "",
+    "ingredients": "ris, kylling, frosne grøntsager",
+    "time": "30 minutter"
+},
+{
+    "id": "8",
+    "name": "Bløde tacos",
+    "link": "",
+    "ingredients": "hakket oksekød/kyllingefileter, tacospice, avokado, tomater, salat",
+    "time": "25 minutter"
+}]

@@ -1,6 +1,5 @@
-import { Navbar, Container, Nav, NavLink } from "react-bootstrap";
+import { Navbar, Container } from "react-bootstrap";
 import logo from "../chef-hat.svg";
-import { useState } from "react";
 
 export function NavigationBar() {
   return (

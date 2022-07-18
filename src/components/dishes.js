@@ -7,7 +7,7 @@ export function Dishes() {
       <h1>Dishes</h1>
       <p>fetching dishes...</p>
       {recipes.map((recipes) => (
-        <div>{recipes.name}</div>
+        <div key={recipes.id}>{recipes.name}</div>
       ))}
     </div>
   );

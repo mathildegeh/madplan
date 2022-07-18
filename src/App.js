@@ -6,8 +6,12 @@ import { Dishes } from "./components/dishes";
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
-      <Dishes />
+      <BrowserRouter>
+        <NavigationBar />
+        <Routes>
+          <Route path="/" element={<Dishes />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

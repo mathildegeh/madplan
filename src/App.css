@@ -6,6 +6,15 @@
   width: 640px;
 }
 
+.dishContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #95BDFF;
+}
+
 /* responsiveness */
 @media (max-width: 758px) {
   .App {

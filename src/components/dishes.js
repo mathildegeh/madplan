@@ -3,11 +3,11 @@ import recipes from "../data/recipes.json";
 export function Dishes() {
   // display initialState
   return (
-    <div>
-      <h1>Dishes</h1>
-      <p>fetching dishes...</p>
+    <div className="dishContainer">
       {recipes.map((recipes) => (
-        <div key={recipes.id}>{recipes.name}</div>
+        <div key={recipes.id}>
+          <p>{recipes.name}</p>
+        </div>
       ))}
     </div>
   );

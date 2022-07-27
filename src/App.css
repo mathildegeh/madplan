@@ -12,7 +12,51 @@
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  background-color: #95BDFF;
+}
+
+/* inputfields */
+input, select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+
+input::-ms-expand, select::-ms-expand {
+  display: none;
+}
+
+input, select {
+  background-color: white;
+  font: inherit;
+  min-width: 64px;
+  height: 32px;
+  border: 1px solid #001B8D;
+  border-radius: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  outline: none;
+  font: inherit;
+  margin-top: 5px;
+  padding: 5px;
+  color: #001B8D;
+}
+
+input:hover, select:hover {
+  border: 1px solid #EF004A;
+}
+
+.boxSmall {
+  width: 64px;
+}
+
+.boxMedium {
+  width: 128px;
+}
+
+.boxLarge {
+  width: 256px;
 }
 
 /* responsiveness */

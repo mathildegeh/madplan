@@ -6,6 +6,24 @@
   width: 640px;
 }
 
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+
+.navbar a {
+
+  color: #343a40;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 1rem;
+
+}
+
 .centeredContainer {
   display: flex;
   flex-direction: column;

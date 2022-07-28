@@ -2,7 +2,7 @@ import recipes from "../data/recipes.json";
 import { Filter } from "./filter";
 import React, { useState } from "react";
 
-export function Dishes() {
+export function Mealplan() {
   const [numDishes, setNumDishes] = useState();
   const [showIngredients, setShowIngredients] = useState(false);
 
@@ -15,14 +15,12 @@ export function Dishes() {
     );
   }
 
-  // if numDishes is larger than the number of recipes, show error message and provide a return button
+  // if numDishes is larger than the number of recipes, alert error message and reset numDishes
   if (numDishes > recipes.length) {
     return (
-      <div className="dishContainer">
-        <p>Du har valgt for mange retter.</p>
-        <button onClick={() => setNumDishes(0)}>
-          Vælg mindre antal retter
-        </button>
+      <div className="centeredContainer">
+        <p>Hov. Så mange opskrifter kender jeg slet ikke 😔</p>
+        <button onClick={() => setNumDishes(0)}>Prøv igen</button>
       </div>
     );
   }

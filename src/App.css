@@ -6,12 +6,21 @@
   width: 640px;
 }
 
-.dishContainer {
+.centeredContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+
+.centeredLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.dishList {
+  background-color: aliceblue;
 }
 
 /* inputfields */

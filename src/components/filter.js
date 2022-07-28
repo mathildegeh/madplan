@@ -3,7 +3,7 @@ import React from "react";
 // inputfield that asks for number of recipes to display
 export function Filter(props) {
   return (
-    <div className="filter">
+    <div className="centeredContainer">
       <p>Hvor mange retter skal du bruge?</p>
       <input
         label="vælg antal retter"

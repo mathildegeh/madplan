@@ -4,8 +4,9 @@ import React, { useState } from "react";
 
 export function Dishes() {
   const [numDishes, setNumDishes] = useState();
+  const [showIngredients, setShowIngredients] = useState(false);
 
-  // if setNumDishes is not set or equal to 0, ask to set number of dishes
+  // if numDishes is not set or equal to 0, ask to set number of dishes
   if (!numDishes || numDishes === 0) {
     return (
       <div className="dishContainer">
@@ -14,17 +15,96 @@ export function Dishes() {
     );
   }
 
+  // if numDishes is larger than the number of recipes, show error message and provide a return button
+  if (numDishes > recipes.length) {
+    return (
+      <div className="dishContainer">
+        <p>Du har valgt for mange retter.</p>
+        <button onClick={() => setNumDishes(0)}>
+          Vælg mindre antal retter
+        </button>
+      </div>
+    );
+  }
+
+  // load all recipes from the data file and store them in an array
+  const allRecipes = recipes.map((recipe) => {
+    return recipe;
+  });
+
+  // based on the number of dishes, pick random recipes from the array
+  // no duplicates
+  const randomRecipes = [];
+  for (let i = 0; i < numDishes; i++) {
+    let randomRecipe =
+      allRecipes[Math.floor(Math.random() * allRecipes.length)];
+    if (!randomRecipes.includes(randomRecipe)) {
+      randomRecipes.push(randomRecipe);
+    }
+  }
+
+  // display the week number
+  let currentDate = new Date();
+  let startDate = new Date(currentDate.getFullYear(), 0, 1);
+  var days = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
+  var weekNumber = Math.ceil(days / 7);
+
+  // export the random recipes as a text file
+  const downloadRecipes = () => {
+    const text = randomRecipes
+      .map((recipe) => {
+        // if there's no link, map only the name of the recipe
+        if (!recipe.link) {
+          return `${recipe.name}`;
+        }
+        // if there's a link, map the name and the link separeted by a dash
+        return `${recipe.name} - ${recipe.link}`;
+      })
+      .join("\n");
+
+    const blob = new Blob([text], {
+      type: "text/plain",
+    });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "madplan.txt";
+    link.click();
+  };
+
+  // make a comma separated list of the ingredients in the random recipes
+  const ingredients = randomRecipes
+    .map(
+      (recipe) => {
+        return recipe.ingredients;
+      }
+      // join the ingredients into one string
+    )
+    .join(", ");
+
+  // sort the ingredients alphabetically
+  const sortedIngredients = ingredients.split(", ").sort().join(", ");
+
+  // return the array of random recipes
   return (
-    <div className="dishContainer">
+    <div>
       <Filter onChangeNumDishes={(numDishes) => setNumDishes(numDishes)} />
-      {recipes
-        .sort(() => Math.random() - 0.5)
-        .slice(0, numDishes)
-        .map((recipes) => (
-          <div key={recipes.id}>
-            <p>{recipes.name}</p>
-          </div>
-        ))}
+      <div className="dishList">
+        {randomRecipes.map((recipe) => {
+          return (
+            <div className="dish" key={recipe.id}>
+              <h3>{recipe.name}</h3>
+              <p>Ingredienser: {recipe.ingredients}</p>
+              <a href={recipe.link} target="_blank">
+                {recipe.link}
+              </a>
+            </div>
+          );
+        })}
+      </div>
+      <div className="centeredContainer">
+        <button onClick={downloadRecipes}>Download madplan</button>
+      </div>
     </div>
   );
 }

@@ -4,11 +4,10 @@ import React from "react";
 export function Filter(props) {
   return (
     <div className="centeredContainer">
-      <p>Hvor mange retter skal du bruge?</p>
+      <p>Hvor mange retter skal du bruge? 🧑‍🍳😋</p>
       <input
-        label="vælg antal retter"
         type="number"
-        placeholder="Antal retter"
+        placeholder="indtast antal, fx 3"
         onChange={(e) => props.onChangeNumDishes(e.target.value)}
         className="boxLarge"
       />

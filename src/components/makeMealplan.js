@@ -83,6 +83,49 @@ export function Mealplan() {
   // sort the ingredients alphabetically
   const sortedIngredients = ingredients.split(", ").sort().join(", ");
 
+  // make a list of the sorted ingredients and count how many times each ingredient is used
+  const ingredientList = sortedIngredients.split(", ");
+  const ingredientCount = {};
+  ingredientList.forEach((ingredient) => {
+    ingredientCount[ingredient] = (ingredientCount[ingredient] || 0) + 1;
+  });
+
+  // sort ingredient count by alphabetical order
+  const sortedIngredientCount = Object.entries(ingredientCount);
+  sortedIngredientCount.sort((a, b) => {
+    if (a[0] < b[0]) {
+      return -1;
+    }
+    if (a[0] > b[0]) {
+      return 1;
+    }
+    return 0;
+  });
+
+  // button that returns the ingredients as a text file
+  const downloadIngredients = () => {
+    const text = sortedIngredientCount
+      .map((ingredient) => {
+        if (ingredient[1] > 1) {
+          return `${ingredient[1]}x ${ingredient[0]}`;
+        } else {
+          return `${ingredient[0]}`;
+        }
+      })
+
+      // join the ingredients into one string
+      .join("\n");
+
+    const blob = new Blob([text], {
+      type: "text/plain",
+    });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "ingredienser.txt";
+    link.click();
+  };
+
   // return the array of random recipes
   return (
     <div>
@@ -100,8 +143,12 @@ export function Mealplan() {
           );
         })}
       </div>
+
       <div className="centeredContainer">
-        <button onClick={downloadRecipes}>Download madplan</button>
+        <div>
+          <button onClick={downloadIngredients}>Hent ingrediensliste</button>
+          <button onClick={downloadRecipes}>Hent madplan</button>
+        </div>
       </div>
     </div>
   );

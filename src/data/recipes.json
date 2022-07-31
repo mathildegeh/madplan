@@ -173,5 +173,12 @@
     "link": "https://www.foodiecrush.com/gnocchi-with-pomodoro-sauce/",
     "ingredients": "frisk oregano, frisk rosmarin, frisk basilikum, løg, hvidløg, hakkede tomater, salt, peber, fløde, gnocchi, mozzarellakugle, parmesan",
     "time": "25 minutter"
+},
+{
+    "id": "27",
+    "name": "Carbonara",
+    "link": "https://ricetta.it/pasta-alla-carbonara",
+    "ingredients": "spaghetti, salt, peber, guanciale, parmesan, æggeblommer",
+    "time": "25 minutter"
 }
 ]

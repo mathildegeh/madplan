@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <NavigationBar />
         <Routes>
           <Route path="/" element={<Mealplan />} />
           <Route path="/all-recipes" element={<Recipes />} />

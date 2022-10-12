@@ -115,28 +115,28 @@
     "id": "18",
     "name": "Broccolitærte",
     "link": "https://martinys.dk/broccolitaerte-med-bacon/",
-    "ingredients": "hakket oksekød/kyllingefileter, tacospice, avokado, tomat, salat",
+    "ingredients": "tærtebund, bacon, broccoli, æg, mælk",
     "time": "25 minutter"
 },
 {
     "id": "19",
     "name": "Svampepasta",
     "link": "https://www.jamieoliver.com/recipes/mushroom-recipes/garlic-mushroom-pasta/",
-    "ingredients": "hakket oksekød/kyllingefileter, tacospice, avokado, tomat, salat",
+    "ingredients": "pasta, hvidløg, svampe, parmesan, creme fraiche",
     "time": "25 minutter"
 },
 {
     "id": "20",
     "name": "Pitabrød",
     "link": "",
-    "ingredients": "hakket oksekød/kyllingefileter, tacospice, avokado, tomat, salat",
+    "ingredients": "kebab, pitabrød, tomat, salat, agurk, dressing",
     "time": "25 minutter"
 },
 {
     "id": "21",
     "name": "Kødboller i tomatsovs",
     "link": "https://mariavestergaard.dk/italienske-koedboller-i-tomatsovs/",
-    "ingredients": "hakket oksekød/kyllingefileter, tacospice, avokado, tomat, salat",
+    "ingredients": "løg, hvidløg, hakkede tomater, tomatpure, basilikum, oregano, cayennepeber, madlavningsfløde, hakket oksekød, æg, hvedemel, spaghetti",
     "time": "45 minutter"
 },
 {
@@ -180,5 +180,26 @@
     "link": "https://ricetta.it/pasta-alla-carbonara",
     "ingredients": "spaghetti, salt, peber, guanciale, parmesan, æggeblommer",
     "time": "25 minutter"
+},
+{
+    "id": "28",
+    "name": "Spicy pasta",
+    "link": "https://www.instagram.com/p/CfCgI9fMaQG/",
+    "ingredients": "pasta, cherrytomater, chiliflager, løg, hvidløg, oregano",
+    "time": "15 minutter"
+},
+{
+    "id": "29",
+    "name": "Cottage pie",
+    "link": "https://www.instagram.com/p/ChjPXCLrc81/",
+    "ingredients": "løg, hvidløg, selleri, gulerød, zucchini, hakket oksekøb, mel, tomatpure, oksebuillon, laurbærblade, worcestershiresovs, timian, peber, salt, kartoffelmos, parmesan",
+    "time": "60 minutter"
+},
+{
+    "id": "30",
+    "name": "Indisk linsecurry",
+    "link": "https://stinna.dk/aftensmad/indisk-linsecurry.html",
+    "ingredients": "løg, hvidløg, frisk ingefær, spidskommen, koriander, kanel, gurkemeje, hakkede otmater, kokosmælk, vand, kartofler, belugalinser, soyasovs, ris",
+    "time": "40 minutter"
 }
 ]

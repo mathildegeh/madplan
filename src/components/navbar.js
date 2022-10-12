@@ -6,7 +6,7 @@ import logo from "../chef-hat.svg";
 export function NavigationBar() {
   return (
     <Container>
-      <Navbar expand="lg" variant="dark" bg="light">
+      <Navbar className="navbar" expand="lg" variant="light" bg="">
         <Container>
           <Nav className="mr-auto">
             <Navbar.Brand href="/">
@@ -18,7 +18,7 @@ export function NavigationBar() {
             </Nav.Link>
 
             <Nav.Link classname="navlink" href="/all-recipes">
-              Alle opskrifter
+              Opskriftbibliotek
             </Nav.Link>
           </Nav>
         </Container>

@@ -133,7 +133,7 @@ export function Mealplan() {
       <div className="dishList">
         {randomRecipes.map((recipe) => {
           return (
-            <div className="dish" key={recipe.id}>
+            <div className="dishListItem" key={recipe.id}>
               <h3>{recipe.name}</h3>
               <p>Ingredienser: {recipe.ingredients}</p>
               <a href={recipe.link} target="_blank">

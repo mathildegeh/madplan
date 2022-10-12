@@ -7,20 +7,22 @@
 }
 
 .navbar {
-  background-color: #f8f9fa;
   border-bottom: 1px solid #e9ecef;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
 }
 
-.navbar a {
-  color: #343a40;
+.mr-auto {
+  display: flex;
+  align-items: center;
+}
+
+.mr-auto a {
+  margin-right: 1rem;
+  text-decoration: none;
   font-size: 1.2rem;
   font-weight: 300;
-  text-decoration: none;
-  margin-right: 1rem;
-
 }
 
 .centeredContainer {
@@ -33,6 +35,35 @@
 
 .dishList {
   background-color: aliceblue;
+}
+
+.dishListItem {
+
+}
+
+.dishCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+  border: 1px solid green;
+}
+
+.dishCard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  border: 1px dotted red;
+  background-color: aliceblue;
+  max-width: 18em;
+  margin: 0.5rem;
+  min-height: 12rem;
+}
+
+.dishCardTitle {
+  color: #0C6FFF;
+  font-size: large;
 }
 
 /* inputfields */

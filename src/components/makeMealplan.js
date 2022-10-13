@@ -10,7 +10,7 @@ export function Mealplan() {
   if (!numDishes || numDishes === 0) {
     return (
       <div className="dishContainer">
-        <Filter onChangeNumDishes={setNumDishes} />
+        <Filter onChangeNumDishes={setNumDishes} inputValue={""} />
       </div>
     );
   }
@@ -129,7 +129,11 @@ export function Mealplan() {
   // return the array of random recipes
   return (
     <div>
-      <Filter onChangeNumDishes={(numDishes) => setNumDishes(numDishes)} />
+      <Filter
+        onChangeNumDishes={(numDishes) => setNumDishes(numDishes)}
+        resetNumDishes={() => setNumDishes(0)}
+        inputValue={numDishes}
+      />
       <div className="dishList">
         {randomRecipes.map((recipe) => {
           return (

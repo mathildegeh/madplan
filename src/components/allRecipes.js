@@ -1,24 +1,33 @@
 import recipes from "../data/recipes.json";
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 // function that maps out all of the recipes from the data
 
 export function Recipes() {
   return (
-    <div className="dishCardContainer">
+    <div className="dishCardsContainer">
       {recipes.map((recipe) => {
         return (
-          <div className="dishCard" key={recipe.id}>
-            <Card style={{ width: "18rem" }}>
+          <div key={recipe.id}>
+            <Card className="dishCard">
               <Card.Body>
                 <Card.Title className="dishCardTitle">{recipe.name}</Card.Title>
-                <Card.Text>
+                <Card.Text className="dishCardText">
                   <i>{recipe.ingredients}</i>
                 </Card.Text>
-                <Card.Link href={recipe.link} target="_blank">
-                  {recipe.link}
-                </Card.Link>
+                {recipe.link != "" ? (
+                  <Card.Link
+                    className="dishCardLink"
+                    href={recipe.link}
+                    target="_blank"
+                  >
+                    Se opskrift
+                  </Card.Link>
+                ) : (
+                  ""
+                )}
               </Card.Body>
             </Card>
           </div>

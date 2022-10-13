@@ -135,7 +135,7 @@ export function Mealplan() {
           return (
             <div className="dishListItem" key={recipe.id}>
               <h3>{recipe.name}</h3>
-              <p>Ingredienser: {recipe.ingredients}</p>
+              <p className="dishCardText">Ingredienser: {recipe.ingredients}</p>
               <a href={recipe.link} target="_blank">
                 {recipe.link}
               </a>

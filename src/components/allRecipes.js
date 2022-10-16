@@ -2,6 +2,7 @@ import recipes from "../data/recipes.json";
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Buttons from "./buttons";
 
 // function that maps out all of the recipes from the data
 

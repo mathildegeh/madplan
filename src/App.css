@@ -37,10 +37,6 @@
   background-color: aliceblue;
 }
 
-.dishListItem {
-
-}
-
 .dishCardsContainer {
   display: flex;
   flex-direction: row;
@@ -57,6 +53,13 @@
   background-color: aliceblue;
   margin: 0.5rem;
   min-height: 14rem;
+}
+
+.dishCard:hover {
+  transform: scale(1.05);
+  transition: 225ms;
+  cursor: hand;
+
 }
 
 .dishCardTitle {

@@ -52,7 +52,7 @@
   flex-wrap: wrap;
   background-color: aliceblue;
   margin: 0.5rem;
-  min-height: 14rem;
+  min-height: 16rem;
 }
 
 .dishCard:hover {

@@ -10,8 +10,8 @@ function App() {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <NavigationBar />
         <Routes>
-          <Route path="/madplan" element={<Mealplan />} />
-          <Route path="/madplan/all-recipes" element={<Recipes />} />
+          <Route path="/" element={<Mealplan />} />
+          <Route path="/all-recipes" element={<Recipes />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -9,18 +9,15 @@ export function NavigationBar() {
       <Navbar className="navbar" expand="lg" variant="light" bg="">
         <Container>
           <Nav className="mr-auto">
-            <Navbar.Brand href="/madplan">
+            <Navbar.Brand href="/">
               <img src={logo} alt="chef logo" />
             </Navbar.Brand>
 
-            <Nav.Link classname="navlink" href="/madplan">
+            <Nav.Link classname="navlink" href="/">
               Lav madplan
             </Nav.Link>
 
-            <Nav.Link
-              classname="navlink"
-              href="https://mathildegeh.github.io/madplan/#/all-recipes"
-            >
+            <Nav.Link classname="navlink" href="/all-recipes">
               Opskriftbibliotek
             </Nav.Link>
           </Nav>

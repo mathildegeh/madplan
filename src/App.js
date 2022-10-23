@@ -7,7 +7,7 @@ import { Recipes } from "./components/allRecipes";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={"/madplan"}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <NavigationBar />
         <Routes>
           <Route path="/" element={<Mealplan />} />

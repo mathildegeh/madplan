@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <NavigationBar />
         <Routes>
-          <Route path="/madplan/" element={<Mealplan />} />
+          <Route path="/madplan" element={<Mealplan />} />
           <Route path="/madplan/all-recipes" element={<Recipes />} />
         </Routes>
       </BrowserRouter>

@@ -17,7 +17,10 @@ export function NavigationBar() {
               Lav madplan
             </Nav.Link>
 
-            <Nav.Link classname="navlink" href="/madplan/all-recipes">
+            <Nav.Link
+              classname="navlink"
+              href="https://mathildegeh.github.io/madplan/#/all-recipes"
+            >
               Opskriftbibliotek
             </Nav.Link>
           </Nav>

@@ -7,7 +7,7 @@ import { Recipes } from "./components/allRecipes";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter base="/">
         <NavigationBar />
         <Routes>
           <Route path="/madplan" element={<Mealplan />} />

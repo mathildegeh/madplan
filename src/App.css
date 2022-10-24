@@ -150,6 +150,8 @@ input:hover, select:hover {
     margin-right: auto;
     width: 384px;
     font-size: 14px;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
   .searchFilterContainer {

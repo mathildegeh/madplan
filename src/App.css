@@ -50,10 +50,12 @@
   justify-content: center;
 }
 
-.dishList {
+.dishListContainer {
   display: flex;
   flex-direction: column;
-  margin: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: aliceblue;
 }
 
 .dishListCard {
@@ -170,31 +172,40 @@ input:hover, select:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0.5em;
+    max-width: 384px;
   }
   
-  .dishList {
-    background-color: aliceblue;
+  .dishListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 384px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
   }
-  
+    
   .dishCardsContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 100%;
+    min-width: 384px;
     justify-content: center;
+    align-items: center;
   
   }
-  
-  .dishCard {
-    width: 384px;
+
+  .dishListCard, .dishCard {
+    min-width: 256px;
+    width: 256px;
     display: flex;
     flex-wrap: wrap;
-    background-color: aliceblue;
-    margin: 0.5rem;
     min-height: fit-content;
-  }
+    padding-top: 0.2em;
+    padding-bottom: 0.2em; 
+   }
 
 }
 

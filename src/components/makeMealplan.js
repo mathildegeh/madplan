@@ -135,7 +135,7 @@ export function Mealplan() {
         resetNumDishes={() => setNumDishes(0)}
         inputValue={numDishes}
       />
-      <div className="dishList">
+      <div className="dishListContainer">
         {randomRecipes.map((recipe) => {
           return (
             <div key={recipe.id}>

@@ -147,7 +147,7 @@ export function Mealplan() {
                   <Card.Text className="dishCardText">
                     <i>{recipe.ingredients}</i>
                   </Card.Text>
-                  {recipe.link != "" ? (
+                  {recipe.link !== "" ? (
                     <Card.Link
                       className="dishCardLink"
                       href={recipe.link}

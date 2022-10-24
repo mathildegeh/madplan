@@ -62,7 +62,7 @@ export function Recipes() {
           <input
             className="boxLarge"
             type="text"
-            placeholder="find en ret ud fra ingredienser, fx 'tomat'"
+            placeholder="find ret ud fra ingrediens, fx 'løg'"
             onChange={(e) => filterRecipes(e)}
           ></input>
         </div>

@@ -33,9 +33,14 @@
   justify-content: center;
 }
 
-.dishList {
-  background-color: aliceblue;
+.centedFiltersColumn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em;
 }
+
 
 .dishCardsContainer {
   display: flex;
@@ -43,8 +48,30 @@
   flex-wrap: wrap;
   max-width: 100%;
   justify-content: center;
-
 }
+
+.dishList {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.dishListCard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  min-height: fit-content;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.dishListCardTitle {
+  color: #0C6FFF;
+  font-size: larger;
+  font-style: bold;
+}
+
 
 .dishCard {
   width: 12rem;
@@ -125,4 +152,47 @@ input:hover, select:hover {
     font-size: 14px;
   }
 
+  .searchFilterContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .centeredContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centedFiltersColumn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em;
+  }
+  
+  .dishList {
+    background-color: aliceblue;
+  }
+  
+  .dishCardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+  
+  }
+  
+  .dishCard {
+    width: 384px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    margin: 0.5rem;
+    min-height: fit-content;
+  }
+
 }
+

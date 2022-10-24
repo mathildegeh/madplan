@@ -1,6 +1,7 @@
 import recipes from "../data/recipes.json";
 import { Filter } from "./filter";
 import React, { useState } from "react";
+import { Card } from "react-bootstrap";
 
 export function Mealplan() {
   const [numDishes, setNumDishes] = useState();
@@ -137,12 +138,28 @@ export function Mealplan() {
       <div className="dishList">
         {randomRecipes.map((recipe) => {
           return (
-            <div className="dishListItem" key={recipe.id}>
-              <h3>{recipe.name}</h3>
-              <p className="dishCardText">Ingredienser: {recipe.ingredients}</p>
-              <a href={recipe.link} target="_blank">
-                {recipe.link}
-              </a>
+            <div key={recipe.id}>
+              <Card className="dishListCard">
+                <Card.Body>
+                  <Card.Title className="dishListCardTitle">
+                    {recipe.name}
+                  </Card.Title>
+                  <Card.Text className="dishCardText">
+                    <i>{recipe.ingredients}</i>
+                  </Card.Text>
+                  {recipe.link != "" ? (
+                    <Card.Link
+                      className="dishCardLink"
+                      href={recipe.link}
+                      target="_blank"
+                    >
+                      Se opskrift
+                    </Card.Link>
+                  ) : (
+                    ""
+                  )}
+                </Card.Body>
+              </Card>
             </div>
           );
         })}

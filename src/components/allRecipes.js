@@ -57,14 +57,16 @@ export function Recipes() {
 
   return (
     <div>
-      <div className="centeredContainer">
-        <div>
+      <div className="searchFilterContainer">
+        <div className="centeredContainer">
           <input
             className="boxLarge"
             type="text"
-            placeholder="søg efter en ret, fx 'laks'"
+            placeholder="find en ret ud fra ingredienser, fx 'tomat'"
             onChange={(e) => filterRecipes(e)}
           ></input>
+        </div>
+        <div className="centedFiltersColumn">
           <button onClick={() => showVegetarian()}>Vegetarretter</button>
           <button onClick={() => showPasta()}>Pastaretter</button>
           <button onClick={() => showRice()}>Risretter</button>

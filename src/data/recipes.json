@@ -229,5 +229,26 @@
     "link": "https://www.instagram.com/p/CebnVQUFdgD/",
     "ingredients": "pasta, cherrytomater, oliven, basilikum, pinjekerner, salt, peber, olivenolie, soltørrede tomater, burrata, balsamico",
     "time": "20 minutter"
+},
+{
+    "id": "35",
+    "name": "Porretærte med bacon",
+    "link": "https://madenimitliv.dk/2019/11/tomatsuppe-tortellini/",
+    "ingredients": "porre, bacon, æg, mælk, hytteost, revet mozzarella, timian, muskatnød, salt, peber",
+    "time": "30 minutter"
+},
+{
+    "id": "36",
+    "name": "Massaman curry",
+    "link": "https://marialottes.dk/massaman-curry/",
+    "ingredients": "ris, kyllingefilet, rødløg, hvidløg, olivenolie, kartofler, søde kartofler, massaman curry, kokosmælk, fiskesauce, lime, rørsukker, flagesalt",
+    "time": "40 minutter"
+},
+{
+    "id": "37",
+    "name": "Minestronesuppe",
+    "link": "https://marialottes.dk/minestronesuppe-italiensk-suppe/",
+    "ingredients": "løg, hvidløg, bladselleri, kartofler, gulerødder, olivenolie, timian, bacon, tomatpuré, hakkede tomater, grøntsagsboullion, suppehorn, peber, citron",
+    "time": "40 minutter"
 }
 ]

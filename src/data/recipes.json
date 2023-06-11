@@ -211,10 +211,10 @@
 },
 {
     "id": "32",
-    "name": "Mexibowl",
-    "link": "https://www.instagram.com/p/Cf6YL4vBEAI/",
-    "ingredients": "ris, sorte bønner, rødløg, avokado, majs, chiliflager, olivenolie, risvineddike, chilisovs, sirup, citron, salt, peber",
-    "time": "20 minutter"
+    "name": "Kylling i karry",
+    "link": "https://www.opskrifter.dk/opskrift/110699-kylling-i-karry-med-kokosmælk",
+    "ingredients": "ris, salt, peber, karry, gurkemeje, løg, gulerødder, peberfrugt, bambusskud, sukkerærter, kylling, kokosmælk",
+    "time": "40 minutter"
 },
 {
     "id": "33",
@@ -233,7 +233,7 @@
 {
     "id": "35",
     "name": "Porretærte med bacon",
-    "link": "https://madenimitliv.dk/2019/11/tomatsuppe-tortellini/",
+    "link": "https://marialottes.dk/porretaerte/",
     "ingredients": "porre, bacon, æg, mælk, hytteost, revet mozzarella, timian, muskatnød, salt, peber",
     "time": "30 minutter"
 },
@@ -250,5 +250,21 @@
     "link": "https://marialottes.dk/minestronesuppe-italiensk-suppe/",
     "ingredients": "løg, hvidløg, bladselleri, kartofler, gulerødder, olivenolie, timian, bacon, tomatpuré, hakkede tomater, grøntsagsboullion, suppehorn, peber, citron",
     "time": "40 minutter"
+},
+{
+    "id": "38",
+    "name": "Kylling med kartoffelfritter",
+    "link": "https://spisbedre.dk/opskrifter/stegt-kylling-med-sode-kartoffelfritter",
+    "ingredients": "kyllingebrystfileter, salt, peber, hvidløg, limefrugter, salt, stødt koriander, peber, søde kartofler, mayonnaise, hjertesalat, olivenolie, balsamicoeddike",
+    "time": "30 minutter"
+},
+{
+    "id": "39",
+    "name": "Aubergine involtini",
+    "link": "https://alexandracooks.com/2016/08/16/eggplant-involtini-simplified/",
+    "ingredients": "aubergine, salt, peber, olivenolie, ricotta, citronskal, hvidløg, løg, hakkede tomater, basilikum, parmesan",
+    "time": "60 minutter"
 }
+
+
 ]

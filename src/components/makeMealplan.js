@@ -31,16 +31,11 @@ export function Mealplan() {
     return recipe;
   });
 
-  // based on the number of dishes, pick random recipes from the array
-  // no duplicates
-  const randomRecipes = [];
-  for (let i = 0; i < numDishes; i++) {
-    let randomRecipe =
-      allRecipes[Math.floor(Math.random() * allRecipes.length)];
-    if (!randomRecipes.includes(randomRecipe)) {
-      randomRecipes.push(randomRecipe);
-    }
-  }
+  // shuffle the allRecipes array to get randomly selected recipes
+  const shuffledRecipes = allRecipes.slice().sort(() => Math.random() - 0.5);
+
+  // select the first numDishes recipes from the shuffled array
+  const randomRecipes = shuffledRecipes.slice(0, numDishes);
 
   // display the week number
   let currentDate = new Date();

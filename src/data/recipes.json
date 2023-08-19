@@ -204,62 +204,41 @@
 },
 {
     "id": "31",
-    "name": "Fladbrød med græsk kebab og tzatziki",
-    "link": "https://www.instagram.com/p/CleFu0iJahO/",
-    "ingredients": "agurk, yoghurt, salt, friskkværnet peber, hvidløg, hakket oksekød, æg, soltørrede tomater, tørret timian, tørret oregano, hvedemel bagepulver, olie, vand, tomat",
-    "time": "45 minutter"
-},
-{
-    "id": "32",
     "name": "Kylling i karry",
     "link": "https://www.opskrifter.dk/opskrift/110699-kylling-i-karry-med-kokosmælk",
     "ingredients": "ris, salt, peber, karry, gurkemeje, løg, gulerødder, peberfrugt, bambusskud, sukkerærter, kylling, kokosmælk",
     "time": "40 minutter"
 },
 {
-    "id": "33",
+    "id": "32",
     "name": "Fetapasta",
     "link": "https://www.instagram.com/p/CiDLa_9jwwL/",
     "ingredients": "pasta, cherrytomater, feta, chlii, hvidløg, honning, tørret timian, salt, peber, olivenolie",
     "time": "20 minutter"
 },
 {
-    "id": "34",
-    "name": "Pastasalat med burrata",
-    "link": "https://www.instagram.com/p/CebnVQUFdgD/",
-    "ingredients": "pasta, cherrytomater, oliven, basilikum, pinjekerner, salt, peber, olivenolie, soltørrede tomater, burrata, balsamico",
-    "time": "20 minutter"
-},
-{
-    "id": "35",
+    "id": "33",
     "name": "Porretærte med bacon",
     "link": "https://marialottes.dk/porretaerte/",
     "ingredients": "porre, bacon, æg, mælk, hytteost, revet mozzarella, timian, muskatnød, salt, peber",
     "time": "30 minutter"
 },
 {
-    "id": "36",
+    "id": "34",
     "name": "Massaman curry",
     "link": "https://marialottes.dk/massaman-curry/",
     "ingredients": "ris, kyllingefilet, rødløg, hvidløg, olivenolie, kartofler, søde kartofler, massaman curry, kokosmælk, fiskesauce, lime, rørsukker, flagesalt",
     "time": "40 minutter"
 },
 {
-    "id": "37",
-    "name": "Minestronesuppe",
-    "link": "https://marialottes.dk/minestronesuppe-italiensk-suppe/",
-    "ingredients": "løg, hvidløg, bladselleri, kartofler, gulerødder, olivenolie, timian, bacon, tomatpuré, hakkede tomater, grøntsagsboullion, suppehorn, peber, citron",
-    "time": "40 minutter"
-},
-{
-    "id": "38",
+    "id": "35",
     "name": "Kylling med kartoffelfritter",
     "link": "https://spisbedre.dk/opskrifter/stegt-kylling-med-sode-kartoffelfritter",
     "ingredients": "kyllingebrystfileter, salt, peber, hvidløg, limefrugter, salt, stødt koriander, peber, søde kartofler, mayonnaise, hjertesalat, olivenolie, balsamicoeddike",
     "time": "30 minutter"
 },
 {
-    "id": "39",
+    "id": "36",
     "name": "Aubergine involtini",
     "link": "https://alexandracooks.com/2016/08/16/eggplant-involtini-simplified/",
     "ingredients": "aubergine, salt, peber, olivenolie, ricotta, citronskal, hvidløg, løg, hakkede tomater, basilikum, parmesan",

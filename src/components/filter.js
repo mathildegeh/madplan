@@ -5,7 +5,7 @@ import { GrPowerReset } from "react-icons/gr";
 export function Filter(props) {
   return (
     <div className="centeredContainer">
-      <p>Hvor mange retter skal du bruge? 🧑‍🍳😋</p>
+      <p>Hvor mange retter skal du bruge? 🧑‍🍳</p>
       <div>
         <input
           type="number"

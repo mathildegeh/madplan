@@ -71,7 +71,6 @@
 .dishListCardTitle {
   color: #0C6FFF;
   font-size: larger;
-  font-style: bold;
 }
 
 
@@ -85,10 +84,10 @@
 }
 
 .dishCard:hover {
-  transform: scale(1.05);
-  transition: 225ms;
+  transform: scale(1.02);
+  transition: 125ms;
   cursor: hand;
-
+  
 }
 
 .dishCardTitle {

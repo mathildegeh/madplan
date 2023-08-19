@@ -86,8 +86,6 @@
 .dishCard:hover {
   transform: scale(1.02);
   transition: 125ms;
-  cursor: hand;
-  
 }
 
 .dishCardTitle {

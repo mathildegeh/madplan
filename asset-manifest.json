@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/madplan/static/css/main.45698a14.css",
-    "main.js": "/madplan/static/js/main.d1b0bffc.js",
+    "main.css": "/madplan/static/css/main.0c76e8de.css",
+    "main.js": "/madplan/static/js/main.3f1013db.js",
     "static/js/787.5c0422fb.chunk.js": "/madplan/static/js/787.5c0422fb.chunk.js",
     "static/media/chef-hat.svg": "/madplan/static/media/chef-hat.0c45b1589b4b92668a3fb983b0e56de7.svg",
     "index.html": "/madplan/index.html",
-    "main.45698a14.css.map": "/madplan/static/css/main.45698a14.css.map",
-    "main.d1b0bffc.js.map": "/madplan/static/js/main.d1b0bffc.js.map",
+    "main.0c76e8de.css.map": "/madplan/static/css/main.0c76e8de.css.map",
+    "main.3f1013db.js.map": "/madplan/static/js/main.3f1013db.js.map",
     "787.5c0422fb.chunk.js.map": "/madplan/static/js/787.5c0422fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45698a14.css",
-    "static/js/main.d1b0bffc.js"
+    "static/css/main.0c76e8de.css",
+    "static/js/main.3f1013db.js"
   ]
 }

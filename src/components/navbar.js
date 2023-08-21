@@ -13,11 +13,11 @@ export function NavigationBar() {
               <img src={logo} alt="chef logo" />
             </Navbar.Brand>
 
-            <Nav.Link classname="navlink" href="/madplan">
+            <Nav.Link className="navlink" href="/madplan">
               Lav madplan
             </Nav.Link>
 
-            <Nav.Link classname="navlink" href="/madplan/#/all-recipes">
+            <Nav.Link className="navlink" href="/madplan/#/all-recipes">
               Opskriftbibliotek
             </Nav.Link>
           </Nav>

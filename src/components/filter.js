@@ -6,7 +6,7 @@ export function Filter(props) {
   return (
     <div className="centeredContainer">
       <p>Hvor mange retter skal du bruge? 🧑‍🍳</p>
-      <div>
+      <div className="numberReset">
         <input
           type="number"
           placeholder="indtast antal, fx 3"

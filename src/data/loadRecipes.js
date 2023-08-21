@@ -1,22 +1,11 @@
-const fs = require("fs");
-const csv = require("csv-parser");
-
-const csvFilePath = "recipes.csv"; // Replace with your CSV file path
-
-const recipes = [];
-
-fs.createReadStream(csvFilePath)
-  .pipe(csv())
-  .on("data", (row) => {
-    recipes.push(row);
+fetch(
+  "https://drive.google.com/file/d/1K1hjSAafROnWt3F1QhZC31E_DUrzub5Q/view?usp=share_link"
+)
+  .then((response) => response.json())
+  .then((data) => {
+    // Use the JSON data in your app
+    console.log(data); // Replace with your actual data handling logic
   })
-  .on("end", () => {
-    // Convert the recipes array to JSON format
-    const jsonData = JSON.stringify(recipes, null, 2);
-
-    // Write the JSON data to a JSON file
-    const jsonFilePath = "recipes.json"; // Replace with your desired JSON file path
-    fs.writeFileSync(jsonFilePath, jsonData, "utf-8");
-
-    console.log("Conversion successful. JSON file created.");
+  .catch((error) => {
+    console.error("Error fetching JSON:", error);
   });

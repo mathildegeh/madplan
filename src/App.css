@@ -143,14 +143,14 @@ input:hover, select:hover {
 }
 
 /* responsiveness */
-@media (max-width: 758px) {
+@media (max-width: 780px) {
   .App {
-    margin-left: auto;
-    margin-right: auto;
-    width: 384px;
+    width: 100%; /* Use full width of the screen */
+    max-width: 384px; /* Limit maximum width */
+    margin: 0 auto; /* Center horizontally */
     font-size: 14px;
-    padding-left: 1em;
-    padding-right: 1em;
+    box-sizing: border-box;
+  
   }
 
   .searchFilterContainer {
@@ -161,48 +161,59 @@ input:hover, select:hover {
   .centeredContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    margin: 0.5em;
+  }
+
+  .numberReset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #001B8D;
+
   }
 
   .centedFiltersColumn {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0.5em;
-    max-width: 384px;
   }
   
+  button {
+    margin: 0;
+  }
+
+  input {
+    min-width: 100%;
+    margin: 0;
+  }
+
   .dishListContainer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 384px;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* Change to column for one column layout */
+    width: 100%; /* Use full width of the screen */
+    justify-content: flex-start; /* Top-aligned content */
+    align-items: flex-start; /* Left-aligned content */
     background-color: white;
   }
     
   .dishCardsContainer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-width: 384px;
-    justify-content: center;
-    align-items: center;
-  
+    flex-direction: column; /* Change to column for one column layout */
+    min-width: 100%; /* Use full width of the screen */
+    justify-content: flex-start; /* Top-aligned content */
+    align-items: flex-start; /* Left-aligned content */
   }
 
   .dishListCard, .dishCard {
-    min-width: 256px;
-    width: 256px;
+    flex: 1;
+    width: 90%; /* Use full width of the container */
     display: flex;
     flex-wrap: wrap;
     min-height: fit-content;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em; 
+    margin: 0.5em;
    }
-
 }
+
 

@@ -150,7 +150,6 @@ input:hover, select:hover {
     margin: 0 auto; /* Center horizontally */
     font-size: 14px;
     box-sizing: border-box;
-  
   }
 
   .searchFilterContainer {
@@ -202,18 +201,18 @@ input:hover, select:hover {
     display: flex;
     flex-direction: column; /* Change to column for one column layout */
     min-width: 100%; /* Use full width of the screen */
-    justify-content: flex-start; /* Top-aligned content */
-    align-items: flex-start; /* Left-aligned content */
+
   }
 
   .dishListCard, .dishCard {
-    flex: 1;
-    width: 90%; /* Use full width of the container */
+    width: 95%; /* Use full width of the container */
     display: flex;
     flex-wrap: wrap;
-    min-height: fit-content;
+    min-height: 6em;
     margin: 0.5em;
-   }
-}
+ 
+  }
+
+  }
 
 

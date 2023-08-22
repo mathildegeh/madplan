@@ -201,16 +201,20 @@ input:hover, select:hover {
     display: flex;
     flex-direction: column; /* Change to column for one column layout */
     min-width: 100%; /* Use full width of the screen */
-
   }
 
   .dishListCard, .dishCard {
     width: 95%; /* Use full width of the container */
     display: flex;
     flex-wrap: wrap;
-    min-height: 6em;
+    min-height: 8em;
     margin: 0.5em;
  
+  }
+
+  .dishCard:hover {
+    transform: none;
+    transition: none;
   }
 
   }

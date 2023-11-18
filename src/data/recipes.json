@@ -92,156 +92,163 @@
 },
 {
     "id": "15",
-    "name": "Lemon chicken",
-    "link": "https://www.instagram.com/p/CAThABIjYDq/?utm_medium=copy_link",
-    "ingredients": "kyllingefilet, salt, peber, mel, smør, hvidløg, hønsebouillon, fløde, citronsaft, dijonsennep, parmesan, frisk pasta",
-    "time": "25 minutter"
-},
-{
-    "id": "16",
     "name": "Kartoffelsuppe",
     "link": "https://mariavestergaard.dk/kartoffelsuppe/",
     "ingredients": "smør, løg, hvidløg, kartofler, porrer, vand, grøntsagsbouillon, fløde, salt, peber, bacon",
     "time": "1 time"
 },
 {
-    "id": "17",
+    "id": "16",
     "name": "Brazilian chickpea stew",
     "link": "https://www.instagram.com/reel/CTOdEJ_gcr4/?utm_medium=copy_link",
     "ingredients": "olivenolie, løg, hvidløg, rød peberfrugt, kikærter, kokosmælk, hakkede tomater, grøntsagsbouillon, paprika, spidskommen, cayennepeber, spinat, lime, ris",
     "time": "25 minutter"
 },
 {
-    "id": "18",
+    "id": "17",
     "name": "Broccolitærte",
     "link": "https://martinys.dk/broccolitaerte-med-bacon/",
     "ingredients": "tærtebund, bacon, broccoli, æg, mælk",
     "time": "25 minutter"
 },
 {
-    "id": "19",
+    "id": "18",
     "name": "Svampepasta",
     "link": "https://www.jamieoliver.com/recipes/mushroom-recipes/garlic-mushroom-pasta/",
     "ingredients": "pasta, hvidløg, svampe, parmesan, creme fraiche",
     "time": "25 minutter"
 },
 {
-    "id": "20",
+    "id": "19",
     "name": "Pitabrød",
     "link": "",
     "ingredients": "kebab, pitabrød, tomat, salat, agurk, dressing",
     "time": "25 minutter"
 },
 {
-    "id": "21",
+    "id": "20",
     "name": "Kødboller i tomatsovs",
     "link": "https://mariavestergaard.dk/italienske-koedboller-i-tomatsovs/",
     "ingredients": "løg, hvidløg, hakkede tomater, tomatpure, basilikum, oregano, cayennepeber, madlavningsfløde, hakket oksekød, æg, hvedemel, spaghetti",
     "time": "45 minutter"
 },
 {
-    "id": "22",
+    "id": "21",
     "name": "Burger",
     "link": "",
     "ingredients": "hakket oksekød, burgerboller, ost, salat, syltede agurker, ketchup, mayonnaise, sennep, rødløg",
     "time": "20 minutter"
 },
 {
-    "id": "23",
+    "id": "22",
     "name": "Svamperisotto",
     "link": "https://martinys.dk/risotto-med-svampe/",
     "ingredients": "hønsebouillon, blandede svampe, løg, hvidløg, olivenolie, peber, salt, risottoris, hvidvin, parmesan, smør, timian",
     "time": "30 minutter"
 },
 {
-    "id": "24",
+    "id": "23",
     "name": "Pasta med shredded kylling i tomatsovs",
     "link": "",
     "ingredients": "kylling, tomat, olie, hvidløg, timian, løgpulver, chiliflager, paprika, kyllingekrydderi, salt, olie, pasta",
     "time": "35 minutter"
 },
 {
-    "id": "25",
+    "id": "24",
     "name": "Burritos",
     "link": "",
     "ingredients": "tortillas, avokado, hakket oksekød/kylling, salat, tomat, agurk",
     "time": "25 minutter"
 },
 {
-    "id": "26",
+    "id": "25",
     "name": "Gnocchi i pomodorosovs",
     "link": "https://www.foodiecrush.com/gnocchi-with-pomodoro-sauce/",
     "ingredients": "frisk oregano, frisk rosmarin, frisk basilikum, løg, hvidløg, hakkede tomater, salt, peber, fløde, gnocchi, mozzarellakugle, parmesan",
     "time": "25 minutter"
 },
 {
-    "id": "27",
+    "id": "26",
     "name": "Carbonara",
     "link": "https://ricetta.it/pasta-alla-carbonara",
     "ingredients": "spaghetti, salt, peber, guanciale, parmesan, æggeblommer",
     "time": "25 minutter"
 },
 {
-    "id": "28",
+    "id": "27",
     "name": "Spicy pasta",
     "link": "https://www.instagram.com/p/CfCgI9fMaQG/",
     "ingredients": "pasta, cherrytomater, chiliflager, løg, hvidløg, oregano",
     "time": "15 minutter"
 },
 {
-    "id": "29",
+    "id": "28",
     "name": "Cottage pie",
     "link": "https://www.instagram.com/p/ChjPXCLrc81/",
     "ingredients": "løg, hvidløg, selleri, gulerød, zucchini, hakket oksekød, mel, tomatpure, oksebuillon, laurbærblade, worcestershiresovs, timian, peber, salt, kartoffelmos, parmesan",
     "time": "60 minutter"
 },
 {
-    "id": "30",
+    "id": "29",
     "name": "Indisk linsecurry",
     "link": "https://stinna.dk/aftensmad/indisk-linsecurry.html",
     "ingredients": "løg, hvidløg, frisk ingefær, spidskommen, koriander, kanel, gurkemeje, hakkede otmater, kokosmælk, vand, kartofler, belugalinser, soyasovs, ris",
     "time": "40 minutter"
 },
 {
-    "id": "31",
+    "id": "30",
     "name": "Kylling i karry",
     "link": "https://www.opskrifter.dk/opskrift/110699-kylling-i-karry-med-kokosmælk",
     "ingredients": "ris, salt, peber, karry, gurkemeje, løg, gulerødder, peberfrugt, bambusskud, sukkerærter, kylling, kokosmælk",
     "time": "40 minutter"
 },
 {
-    "id": "32",
+    "id": "31",
     "name": "Fetapasta",
     "link": "https://www.instagram.com/p/CiDLa_9jwwL/",
     "ingredients": "pasta, cherrytomater, feta, chlii, hvidløg, honning, tørret timian, salt, peber, olivenolie",
     "time": "20 minutter"
 },
 {
-    "id": "33",
+    "id": "32",
     "name": "Porretærte med bacon",
     "link": "https://marialottes.dk/porretaerte/",
     "ingredients": "porre, bacon, æg, mælk, hytteost, revet mozzarella, timian, muskatnød, salt, peber",
     "time": "30 minutter"
 },
 {
-    "id": "34",
-    "name": "Massaman curry",
-    "link": "https://marialottes.dk/massaman-curry/",
-    "ingredients": "ris, kyllingefilet, rødløg, hvidløg, olivenolie, kartofler, søde kartofler, massaman curry, kokosmælk, fiskesauce, lime, rørsukker, flagesalt",
-    "time": "40 minutter"
-},
-{
-    "id": "35",
+    "id": "33",
     "name": "Kylling med kartoffelfritter",
     "link": "https://spisbedre.dk/opskrifter/stegt-kylling-med-sode-kartoffelfritter",
     "ingredients": "kyllingebrystfileter, salt, peber, hvidløg, limefrugter, salt, stødt koriander, peber, søde kartofler, mayonnaise, hjertesalat, olivenolie, balsamicoeddike",
     "time": "30 minutter"
 },
 {
-    "id": "36",
+    "id": "34",
     "name": "Aubergine involtini",
     "link": "https://alexandracooks.com/2016/08/16/eggplant-involtini-simplified/",
     "ingredients": "aubergine, salt, peber, olivenolie, ricotta, citronskal, hvidløg, løg, hakkede tomater, basilikum, parmesan",
     "time": "60 minutter"
+},
+{
+    "id": "35",
+    "name": "Butter chicken",
+    "link": "https://www.recipetineats.com/butter-chicken/",
+    "ingredients": "kylling, ris, hakkede tomater, smør, yoghurt, citronsaft, gurkemeje, garam masala, cayennepeber, spidskommen, frisk ingefær, hvidløg, sukker, salt",
+    "time": "35 minutter"
+},
+{
+    "id": "36",
+    "name": "Dal",
+    "link": "https://biancazapatka.com/en/red-lentil-dahl/",
+    "ingredients": "olie, løg, hvidløg, ingefær, gurkemeje, koriander, spidskommen, paprika, garam masala, røde linser, grøntsagsbuillon, kokosmælk, hakkede tomater, sukker, citronsaft, yoghurt, agurker, ris",
+    "time": "25 minutter"
+},
+{
+    "id": "37",
+    "name": "Bun bo xao",
+    "link": "https://delightfulplate.com/vietnamese-beef-noodle-salad-bun-bo-xao/",
+    "ingredients": "oksekød, østerssovs, fiskesovs, hvidløg, ingefær, peber, salt, olie, limejuice, sukker, vermicelli nudler, microgreens, gulerod, agurk, ristede skalotteløg, peanuts, radiser",
+    "time": "25 minutter"
 }
 ]

@@ -80,7 +80,8 @@
   flex-wrap: wrap;
   background-color: aliceblue;
   margin: 0.5rem;
-  min-height: 16rem;
+  min-height: 18rem;
+  max-height: 18rem;
 }
 
 .dishCard:hover {
@@ -209,6 +210,7 @@ input:hover, select:hover {
     flex-wrap: wrap;
     min-height: 8em;
     margin: 0.5em;
+
   }
 
   .dishCard:hover {

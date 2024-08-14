@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/madplan/static/css/main.c26bc1cd.css",
-    "main.js": "/madplan/static/js/main.63dc3fce.js",
-    "static/js/787.9872b825.chunk.js": "/madplan/static/js/787.9872b825.chunk.js",
+    "main.css": "/madplan/static/css/main.086672da.css",
+    "main.js": "/madplan/static/js/main.5cc83d0c.js",
+    "static/js/453.347d9a24.chunk.js": "/madplan/static/js/453.347d9a24.chunk.js",
     "static/media/chef-hat.svg": "/madplan/static/media/chef-hat.0c45b1589b4b92668a3fb983b0e56de7.svg",
     "index.html": "/madplan/index.html",
-    "main.c26bc1cd.css.map": "/madplan/static/css/main.c26bc1cd.css.map",
-    "main.63dc3fce.js.map": "/madplan/static/js/main.63dc3fce.js.map",
-    "787.9872b825.chunk.js.map": "/madplan/static/js/787.9872b825.chunk.js.map"
+    "main.086672da.css.map": "/madplan/static/css/main.086672da.css.map",
+    "main.5cc83d0c.js.map": "/madplan/static/js/main.5cc83d0c.js.map",
+    "453.347d9a24.chunk.js.map": "/madplan/static/js/453.347d9a24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c26bc1cd.css",
-    "static/js/main.63dc3fce.js"
+    "static/css/main.086672da.css",
+    "static/js/main.5cc83d0c.js"
   ]
 }

@@ -271,5 +271,12 @@
     "link": "https://martinys.dk/pasta-med-ovnbagt-tomatsauce/",
     "ingredients": "Olivenolie, hvidløg, squash, cherrytomater, pasta, parmesan, salt, peber",
     "time": "30 minutter"
+},
+{
+    "id": "41",
+    "name": "Pasta med peberfrugtcreme",
+    "link": "https://stinna.dk/aftensmad/peberfrugtsauce.html",
+    "ingredients": "Olivenolie, hvidløg, pasta, rød peberfrugt, gul peberfrugt, salt, peber, paprike, cayennepeber, fløde, rødløg, soltørret tomat",
+    "time": "20 minutter"
 }
 ]

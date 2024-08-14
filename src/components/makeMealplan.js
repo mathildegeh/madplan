@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 
 export function Mealplan() {
   const [numDishes, setNumDishes] = useState();
-  const [showIngredients, setShowIngredients] = useState(false);
+  // const [showIngredients, setShowIngredients] = useState(false);
 
   // if numDishes is not set or equal to 0, ask to set number of dishes
   if (!numDishes || numDishes === 0) {
@@ -36,12 +36,6 @@ export function Mealplan() {
 
   // select the first numDishes recipes from the shuffled array
   const randomRecipes = shuffledRecipes.slice(0, numDishes);
-
-  // display the week number
-  let currentDate = new Date();
-  let startDate = new Date(currentDate.getFullYear(), 0, 1);
-  var days = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
-  var weekNumber = Math.ceil(days / 7);
 
   // export the random recipes as a text file
   const downloadRecipes = () => {

@@ -10,7 +10,7 @@
   border-bottom: 1px solid #e9ecef;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
-  padding: 0.5rem 0rem;
+  padding: 0.25rem 0; /* Reduced padding for smaller screens */
   margin-bottom: 1rem;
 }
 
@@ -41,7 +41,6 @@
   margin: 0.5em;
 }
 
-
 .dishCardsContainer {
   display: flex;
   flex-direction: row;
@@ -70,9 +69,8 @@
 
 .dishListCardTitle {
   color: #0C6FFF;
-  font-size: larger;
+  font-size: 1.1rem; /* Slightly smaller font for mobile */
 }
-
 
 .dishCard {
   width: 12rem;
@@ -81,7 +79,7 @@
   background-color: aliceblue;
   margin: 0.5rem;
   min-height: 18rem;
-  max-height: 18rem;
+  max-height: 15rem; /* Reduced height for smaller screens */
 }
 
 .dishCard:hover {
@@ -91,7 +89,7 @@
 
 .dishCardTitle {
   color: #0C6FFF;
-  font-size: larger;
+  font-size: 1.1rem; /* Slightly smaller font for mobile */
 }
 
 .dishCardText {
@@ -146,11 +144,19 @@ input:hover, select:hover {
 /* responsiveness */
 @media (max-width: 780px) {
   .App {
-    width: 100%; /* Use full width of the screen */
-    max-width: 384px; /* Limit maximum width */
-    margin: 0 auto; /* Center horizontally */
+    width: 100%;
+    max-width: 384px;
+    margin: 0 auto;
     font-size: 14px;
     box-sizing: border-box;
+  }
+
+  .navbar {
+    padding: 0.25rem 0; /* Smaller padding for mobile */
+  }
+
+  .mr-auto a {
+    font-size: 1rem; /* Smaller font for mobile */
   }
 
   .searchFilterContainer {
@@ -170,7 +176,6 @@ input:hover, select:hover {
     flex-direction: row;
     justify-content: space-between;
     background-color: #001B8D;
-
   }
 
   .centedFiltersColumn {
@@ -182,41 +187,48 @@ input:hover, select:hover {
   
   button {
     margin: 0;
+    padding: 0.4rem 0.6rem; /* Adjusted padding for easier tap on mobile */
+    box-sizing: border-box;
   }
 
   input {
     min-width: 100%;
     margin: 0;
+    padding: 0.4rem 0.6rem; /* Adjusted padding for smaller screens */
+    box-sizing: border-box;
   }
 
   .dishListContainer {
     display: flex;
-    flex-direction: column; /* Change to column for one column layout */
-    width: 100%; /* Use full width of the screen */
-    justify-content: flex-start; /* Top-aligned content */
-    align-items: flex-start; /* Left-aligned content */
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: none;
+    margin: 0.25em; /* Reduced margin for mobile */
   }
     
   .dishCardsContainer {
     display: flex;
-    flex-direction: column; /* Change to column for one column layout */
-    min-width: 100%; /* Use full width of the screen */
+    flex-direction: column;
+    min-width: 100%;
   }
 
   .dishListCard, .dishCard {
-    width: 95%; /* Use full width of the container */
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     min-height: 8em;
-    margin: 0.5em;
-
+    margin: 0.25em; /* Reduced margin for mobile */
+    max-height: 15rem; /* Reduced height */
   }
 
   .dishCard:hover {
     transform: none;
     transition: none;
   }
+
+  .dishCard img {
+    object-fit: cover; /* Ensures images fit well within containers */
   }
-
-
+}
